@@ -1,9 +1,9 @@
 {
-  "name": "web-client",
+  "name": "phsom-web-client",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --ssl phsom-web-client -o --ssl-key private.key --ssl-cert certificate.pem --port 4201",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
